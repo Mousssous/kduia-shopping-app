@@ -6,6 +6,7 @@ import CartValue from './components/CartValue';
 import ExpenseList from './components/ExpenseList';
 import ItemSelected from './components/ItemSelected';
 import Location from './components/Location';
+import Budget from './components/Budget';
 
 const App = () => {
     return (
@@ -15,6 +16,9 @@ const App = () => {
                 <div className='row mt-3'> 
                     <div className='col-sm'>
                         <CartValue />
+                    </div>
+                    <div className='col-sm'>
+                        <Budget />
                     </div>
                     <div className='col-sm'>
                         <Location />
