@@ -3,10 +3,10 @@ import { AppContext } from '../context/AppContext';
 
 const Budget = () => {
     const { Location } = useContext(AppContext);
-    const Budget = 500;
+    const BudgetValue=500;
     return (
         <div className='alert alert-primary'>
-            <span>Budget: {Location}{Budget}</span>
+            <span>Budget: {Location}{BudgetValue}</span>
         </div>
     );
 };
